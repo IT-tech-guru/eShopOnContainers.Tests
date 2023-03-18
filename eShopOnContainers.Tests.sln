@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopOnContainers.Tests", "eShopOnContainers.Tests\eShopOnContainers.Tests.csproj", "{AF08CA7C-9DAA-44D6-AEEF-7BF1BAF55F26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8293F94-A7F2-40A7-86E8-6B0A94F2A3C3} = {B8293F94-A7F2-40A7-86E8-6B0A94F2A3C3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopOnContainers.Customizations", "eShopOnContainers.Customizations\eShopOnContainers.Customizations.csproj", "{B8293F94-A7F2-40A7-86E8-6B0A94F2A3C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF08CA7C-9DAA-44D6-AEEF-7BF1BAF55F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF08CA7C-9DAA-44D6-AEEF-7BF1BAF55F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF08CA7C-9DAA-44D6-AEEF-7BF1BAF55F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF08CA7C-9DAA-44D6-AEEF-7BF1BAF55F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8293F94-A7F2-40A7-86E8-6B0A94F2A3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8293F94-A7F2-40A7-86E8-6B0A94F2A3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8293F94-A7F2-40A7-86E8-6B0A94F2A3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8293F94-A7F2-40A7-86E8-6B0A94F2A3C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7930A4E-AE2B-4583-A089-500799F28489}
+	EndGlobalSection
+EndGlobal
